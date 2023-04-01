@@ -1,0 +1,109 @@
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-nav .nav-item:hover {
+    background-color: #110597;
+  }
+  
+  .navbar-nav .nav-item:hover .nav-link {
+    color: white !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: black !important;
+    padding: 15px 0;
+  }
+
+  .start {
+    margin-top: 100px;
+  } 
+
+  .logo {
+    font-size: 24px;
+  }
+  
+  .logo a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+.myname {
+    color: rgb(192, 99, 184);
+    }
+
+.profile_img {
+    border-radius: 50%;
+    height: 220px;
+    margin-left: 20%;
+    }
+
+.container {
+    margin-top: 30px;
+  }
+
+  .about-me {
+    margin-left: 150px;
+    font-family: cursive;
+  }
+
+  .subtitle-block {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: cursive;
+  }
+
+  .title-block {
+    font-size: 53px;
+    font-weight: 400;
+    font-family: cursive;
+  }
+
+  #project-class {
+    margin-left: 100px; 
+    margin-right: 100px;
+    padding-bottom: 10px;
+  }
+
+  .project-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .project-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .skills {
+    color: white;
+   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+ }
+
+ .contactlink:hover .contact-label {
+  opacity: 1;
+}
+.contact-label {
+  opacity: 0;
+}

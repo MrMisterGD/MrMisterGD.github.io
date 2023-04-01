@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gonzalo Decap</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span class="myname">G</span>Decap</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about-section">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects-section">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills-section">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-section">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <div class="wrapper">
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/bg-3.jpg"></div>
+      <div class="row start">
+        <div class="col s12 m6">
+          <div class="profile_img">
+            <svg viewBox="0 0 220 220" width="250" height="250">
+              <defs>
+                <clipPath id="circle">
+                  <circle cx="110" cy="110" r="100" />
+                </clipPath>
+              </defs>
+              <image xlink:href="img/img_gonzalo.svg" width="100%" height="100%" clip-path="url(#circle)" />
+            </svg>
+          </div>
+        </div>
+        <div class="col s12 m6 valign-wrapper banner-text">
+          <div class="container">
+            <h4 class="flow-text white-text">"I got into coding to create some crazy stuff"</h4>
+            <h6 class="flow-text pink-text text-lighten-4">Web Developer</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="row">
+    <div class="col s12">
+      <div class="about-me">
+        <h3><strong>About me</strong></h3>
+      </div>
+      <div class="about-me">
+        <p>I am a developer interested in technological advancement and being a part of it. I fell in love with coding already being an adult an had to learn the hard way while working and trying to make money on the side, if you talk to me out of the blue I'll probably be playing videogames. <br><br> Here you can watch my cat.</p>
+      </div>
+    </div>
+    <div class="col s12 m6">
+      <div id="about-section"></div>
+      <div class="container">
+        <img class="" src="img/cat.jpeg" alt="code" style="width: 200px; margin-top: 30px;">
+        <video loop muted autoplay class="" src="img/vid.mp4" alt="code" style="width: 200px; margin-top: 30px;">
+        </div>
+        <div id="projects-section"></div>
+      </div>
+    </div>
+    
+    <div class="wrapper">
+      <div class="parallax-container">
+        <div class="parallax"><img src="img/arduino.jpg"></div>
+        <div class="row">
+          <div class="col s12">
+            <div class="about-me" style="text-align: center;">
+              
+              <h2 class="skills title-block">Projects</h2>
+              <p class="skills subtitle-block">Here are most of the things I've built</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row" id="project-class" style="border-bottom: solid;">
+      <div class="col s12">
+        <div class="about-me">
+          <h4><strong>NextJuegos | videogames price comparator</strong></h4>
+          <p>Price comparator for videogames that uses scrapping technology</p>
+          <ul>
+            <li>• It shows prices and reviews of videogames so you can make the best choice at the moment of purchasing a videogame using an SQL database and a Flask server</li>
+            <li>• Helps the user with usefull information about the videogame so you don't have to check every videogame store / the scrapping technology used is BeautifulSoup + python</li>
+          </ul>
+          <a href="https://github.com/MrMisterGD/nextjuegos" target="_blank" rel="noopener noreferrer"><img src="img/github.png" alt="github" style="width: 100px;"></a>
+          <p class="project-link-label blue-grey-font center-align" style="display: none;">GitHub</p>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="project-img">
+          <img src="img/nextjuegos1.png" alt="NextJuegos dashboard" style="width: 500px;">
+        </div>
+      </div>
+    </div>
+    
+    <div class="row" id="project-class" style="border-bottom: solid;">
+      <div class="col s12">
+        <div class="about-me">
+          <h4><strong>Taxi Service | taxi service facilitator for companies</strong></h4>
+          <p>Taxi service that manages timestamps for companies to pay for the employees usage of transport</p>
+          <ul>
+            <li>• The service allow the employer to keep track of usage of taxis with the linked companie so it can check if the service is being properly used, all of this using SQL and Google Maps</li>
+            <li>• Helps the taxi driver find a person looking for transport to already known places, so it makes it safer for both the passenger and the driver</li>
+          </ul>
+          <a href="https://github.com/ChristianVargasRodriguez/taxi_empresa" target="_blank" rel="noopener noreferrer"><img src="img/github.png" alt="github" style="width: 100px;"></a>
+          <p class="project-link-label blue-grey-font center-align" style="display: none;">GitHub</p>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="project-img">
+          <img src="img/taxi.png" alt="Taxi app" style="width: 500px;">
+        </div>
+        <div id="skills-section"></div>
+      </div>
+    </div>
+    
+    <div class="wrapper">
+      <div class="parallax-container">
+        <div class="parallax"><img src="img/robot.jpg"></div>
+        <div class="row">
+          <div class="col s12">
+            <div class="about-me" style="text-align: center;">
+              
+              <h2 class="skills title-block">Skills</h2>
+              <p class="skills subtitle-block">Here is my knowledge so far, getting more at the moment</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-12">
+        <div class="d-flex justify-content-around align-items-center flex-wrap">
+          <img src="img/css.png" alt="CSS" style="width: 200px;">
+          <img src="img/python.png" alt="Python" style="width: 200px;">
+          <img src="img/html.png" alt="HTML" style="width: 200px;">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex justify-content-around align-items-center flex-wrap">
+          <img src="img/bootstrap.png" alt="Bootstrap" style="width: 200px;">
+          <img src="img/bs4.png" alt="BeautifulSoup 4" style="width: 200px;">
+          <img src="img/flask.png" alt="Flask" style="width: 200px;">
+        </div>
+      </div>
+    </div>
+    <div id="contact-section"></div>
+    <div class="wrapper">
+      <div class="parallax-container">
+        <div class="parallax"><img src="img/marsrovers.jpg"></div>
+        <div class="row">
+          <div class="col s12">
+            <div class="about-me" style="text-align: center;">
+              
+              <h2 class="skills title-block">Contact me</h2>
+              <p class="skills subtitle-block">Feel free to reach out at any time of the day, I barely sleep</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row" style="margin-top: 50px;">
+        <div class="col-12">
+          <div class="d-flex justify-content-around align-items-center flex-wrap">
+
+            <a href="mailto:gonzalodecap@protonmail.com" class="contactlink" target="_blank" rel="noopener noreferrer"><img class="contactimg center-block" src="img/email.png" alt="mail" style="width: 100px;"><p class="blue-grey-font contact-label center-align" style="display: none;">Email</p></a>
+
+            <a href="https://www.linkedin.com/in/gonzalodecap/" target="_blank" rel="noopener noreferrer"><img src="img/linkedin.png" alt="Linkedin" style="width: 100px;"><p class="blue-grey-font contact-label center-align" style="display: none;">Linkedin</p></a>
+            <a href="https://github.com/MrMisterGD" target="_blank" rel="noopener noreferrer"><img src="img/github.png" alt="github" style="width: 100px;"><p class="blue-grey-font contact-label center-align" style="display: none;">Github</p></a>
+            <a href="https://drive.proton.me/urls/2ZQ1WC54R4#FXQFY0oZR8C4" target="_blank" rel="noopener noreferrer"><img src="img/dropbox.png" alt="Dropbox" style="width: 100px;"><p class="blue-grey-font contact-label center-align" style="display: none;">Resume</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+      
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+      
+            // Store hash
+            var hash = this.hash;
+      
+            // Using jQuery's animate() method to add smooth page scroll
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+      
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+      </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+  </html>
